@@ -1,0 +1,29 @@
+h1{
+    color: brown;
+    background-color: aqua;
+    display: inline;
+}
+div{
+    border: 1;
+    border-style: solid;
+    border-color: red;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.one p{
+    color: aqua;
+    background-color: brown;
+    display: inline-block;
+}
+#name{
+    color: blue;
+    background-color: aqua;
+}
+.two{
+    display: inline-block;
+}
+p{
+    background-color: yellow;
+}
