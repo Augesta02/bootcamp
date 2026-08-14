@@ -1,0 +1,41 @@
+body{
+    background-image: url(./images/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    color: red;
+    background-color: rgb(37, 37, 102);
+}
+.blue{
+    color: blue;
+}
+#unique{
+    background-color: bisque;
+}
+h1,p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+div p{
+    color: brown !important;
+}
+div > p{
+    color: green !important;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+}
+div a{
+    color: black;
+    text-decoration: none;
+}
+div a:hover{
+    color: red;
+}

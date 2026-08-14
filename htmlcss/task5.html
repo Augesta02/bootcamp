@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input[type="text"]{
+                width: 250px;
+                padding: 8px;
+                border: 2px solid green;
+                border-radius: 5px;
+                background-color: #f0fff0;
+        }
+        input[type="email"]{
+            width: 250px;
+            padding: 8px;
+            border: 2px solid green;
+            border-radius: 5px;
+            background-color: #f0fff0;
+        }
+        input[type="password"]{
+            width: 250px;
+            padding: 8px;
+            border: 2px solid green;
+            border-radius: 5px;
+            background-color: #f0fff0;
+        }
+    
+    </style>
+    <h3>Application Form</h3>
+    <table>
+        <form>
+            <tr>
+                <td><label>Name</td>
+                <td><input type="text" placeholder="Enter Your Name*" required></td>
+            </tr>
+            <tr>
+                <td><label>Email</td>
+                <td><input type="email" placeholder="Enter Your Email*" required></td>
+            </tr>
+            <tr>
+                <td><label>Password</td>
+                <td><input type="password" placeholder="Enter Password" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender</td>
+                <td><label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> Other</label></td>
+            </tr>
+            <tr>
+                <td><label>Hobbies</td>
+                <td><label><input type="checkbox" name="Hobbies">Gardening</label><br>
+                <label><input type="checkbox" name="Hobbies">Drawing</label><br>
+                <label><input type="checkbox" name="Hobbies">Badminton</label><br>
+                <label><input type="checkbox" name="Hobbies">Reading</label><br>
+                <label><input type="checkbox" name="Hobbies">Writing</label></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="Submit"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
