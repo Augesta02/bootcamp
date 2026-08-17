@@ -1,3 +1,7 @@
+*{
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 h1{
     color: brown;
     background-color: aqua;
@@ -17,6 +21,9 @@ img{
     background-color: brown;
     display: inline-block;
 }
+div > p{
+    font-size: 40px;
+}
 #name{
     color: blue;
     background-color: aqua;
@@ -24,6 +31,7 @@ img{
 .two{
     display: inline-block;
 }
-p{
+.highlight{
+    font-size: 16px;
     background-color: yellow;
 }
